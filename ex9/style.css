@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: auto;
+  }
+header {
+    background-image: url("img/anc.png");
+   height: 600px;
+   background-size: cover;
+
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+header nav i {
+    color: #fff;
+    font-size: 24px;
+}
+header h1 {
+    font-size: 52px;
+letter-spacing: 2px;
+color: #ffffff;
+font-weight: 300;
+font-family: "Open Sans";
+text-align: center;
+margin-top: 200px;
+}
+
+  
+  .form {
+    display: flex;
+    justify-content: center;
+  }
+  form input {
+    width: 326px;
+    height: 40px;
+    background-color: #ffffff;
+    border: none;
+    padding: 15px 0 15px 15px;
+  }
+  form button {
+    background-color: #fd4f32;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 50px;
+    border: none;
+    width: 122px;
+height: 40px;
+font-size: 16px;
+letter-spacing: 1px;
+
+font-weight: 700;
+font-family: "Open Sans";
+
+  }
+  header form {
+    margin-top: 40px;
+    padding-bottom: 200px;
+  }
+  
